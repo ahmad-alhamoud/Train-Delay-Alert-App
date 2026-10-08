@@ -1,3 +1,5 @@
 spring:
   application:
     name: Train Delay Alert
+  profiles:
+    active: dev
