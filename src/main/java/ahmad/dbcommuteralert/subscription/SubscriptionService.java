@@ -28,4 +28,8 @@ public class SubscriptionService {
     public List<Subscription> getUserSubscriptions(User user) {
         return subscriptionRepository.findByUser(user);
     }
+
+    public List<Subscription> getAllSubscriptions(){
+        return subscriptionRepository.findAll();
+    }
 }
