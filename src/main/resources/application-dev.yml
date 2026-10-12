@@ -10,6 +10,11 @@ spring:
       path: /h2-console
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create-drop
     show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
+
+telegram:
+  bot:
+    username: DbCommuterBot
+    token: 8831777872:AAFp6YRYK3lwTkgWNnUpq13GhmYUnXESxFs
